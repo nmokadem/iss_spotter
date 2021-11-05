@@ -20,6 +20,7 @@ const convertTimestampToDate = function(unix_timestamp) {
 }
 
 const secondsToMinutes = function(seconds) {
+  
   let min = Math.floor(seconds / 60);
   let sec = seconds - min * 60;
   
